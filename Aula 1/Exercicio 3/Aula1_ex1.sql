@@ -1,9 +1,9 @@
 -- Crie um banco de dados para um registro de uma escola, onde o sistema trabalhará com as informações dos estudantes deste registro dessa escola. 
 
 
-CREATE DATABASE db_ecola;
+CREATE DATABASE db_escola;
 
-USE db_ecola; 
+USE db_escola; 
 
 -- Crie uma tabela estudantes e utilizando a habilidade de abstração e determine 5 atributos relevantes dos estudantes para se trabalhar com o serviço dessa escola.
 
@@ -48,12 +48,12 @@ VALUES ("Gabriel", 100, 2, 8, "2015-12-22");
 
 -- Faça um SELECT que retorne todes o/a(s) estudantes com a nota maior do que 9.0. (Como nao foi especificado o atributo nota, foi criado Idade no lugar e adaptado ao caso)
 
-SELECT db_ecola FROM tb_estudantes WHERE idade > 9; 
+SELECT * FROM tb_estudantes WHERE idade > 9; 
 
 -- Faça um SELECT que retorne todes o/a(s) estudantes com a nota menor do que 10.0. (Como nao foi especificado o atributo nota, foi criado Idade no lugar e adaptado ao caso)
 
 
-SELECT db_escola FROM tb_estudantes WHERE idade < 10;
+SELECT * FROM tb_estudantes WHERE idade < 10;
 
 -- Ao término atualize um registro desta tabela através de uma query de atualização.
 
